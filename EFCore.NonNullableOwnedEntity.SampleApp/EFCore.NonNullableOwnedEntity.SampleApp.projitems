@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>43659a50-1204-4009-97e9-3c7043c66823</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>EFCore.NonNullableOwnedEntity.SampleApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\SampleDbContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\SampleDbContextFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Metric.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Person.cs" />
+  </ItemGroup>
+</Project>

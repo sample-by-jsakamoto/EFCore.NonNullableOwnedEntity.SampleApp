@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29512.175
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EFCore.NonNullableOwnedEntity.SampleApp", "EFCore.NonNullableOwnedEntity.SampleApp\EFCore.NonNullableOwnedEntity.SampleApp.shproj", "{43659A50-1204-4009-97E9-3C7043C66823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.NonNullableOwnedEntity.SampleApp.EF22", "EFCore.NonNullableOwnedEntity.SampleApp.EF22\EFCore.NonNullableOwnedEntity.SampleApp.EF22.csproj", "{8A43427D-9152-47BB-9B9D-2C3D5249A092}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.NonNullableOwnedEntity.SampleApp.EF31", "EFCore.NonNullableOwnedEntity.SampleApp.EF31\EFCore.NonNullableOwnedEntity.SampleApp.EF31.csproj", "{1EBE9647-4885-48CF-BE66-B79EE1DF539C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.NonNullableOwnedEntity.SampleApp.EF30", "EFCore.NonNullableOwnedEntity.SampleApp.EF30\EFCore.NonNullableOwnedEntity.SampleApp.EF30.csproj", "{A16C80CE-8550-4AAC-B211-82BEAD5A7298}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EFCore.NonNullableOwnedEntity.SampleApp\EFCore.NonNullableOwnedEntity.SampleApp.projitems*{43659a50-1204-4009-97e9-3c7043c66823}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A43427D-9152-47BB-9B9D-2C3D5249A092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A43427D-9152-47BB-9B9D-2C3D5249A092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A43427D-9152-47BB-9B9D-2C3D5249A092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A43427D-9152-47BB-9B9D-2C3D5249A092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBE9647-4885-48CF-BE66-B79EE1DF539C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBE9647-4885-48CF-BE66-B79EE1DF539C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBE9647-4885-48CF-BE66-B79EE1DF539C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBE9647-4885-48CF-BE66-B79EE1DF539C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16C80CE-8550-4AAC-B211-82BEAD5A7298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16C80CE-8550-4AAC-B211-82BEAD5A7298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16C80CE-8550-4AAC-B211-82BEAD5A7298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16C80CE-8550-4AAC-B211-82BEAD5A7298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86352405-88C9-44E6-93DD-6C8697E068FA}
+	EndGlobalSection
+EndGlobal
