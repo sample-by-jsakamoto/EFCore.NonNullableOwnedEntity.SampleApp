@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.NonNullableOwnedEnti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.NonNullableOwnedEntity.SampleApp.EF31", "EFCore.NonNullableOwnedEntity.SampleApp.EF31\EFCore.NonNullableOwnedEntity.SampleApp.EF31.csproj", "{1EBE9647-4885-48CF-BE66-B79EE1DF539C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.NonNullableOwnedEntity.SampleApp.EF30", "EFCore.NonNullableOwnedEntity.SampleApp.EF30\EFCore.NonNullableOwnedEntity.SampleApp.EF30.csproj", "{A16C80CE-8550-4AAC-B211-82BEAD5A7298}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.NonNullableOwnedEntity.SampleApp.EF30", "EFCore.NonNullableOwnedEntity.SampleApp.EF30\EFCore.NonNullableOwnedEntity.SampleApp.EF30.csproj", "{A16C80CE-8550-4AAC-B211-82BEAD5A7298}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{79393BE9-38A3-4D34-8ED2-48CC3EC8D4DA}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
